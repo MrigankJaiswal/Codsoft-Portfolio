@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/091d52f898.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="Logo.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-txt">
+            <p> UI/UX designer </p>
+            <h1> Hi, I'am <span>Mrigank</span> Jaiswal <br> From India </h1>
+        </div>
+    </div>
+  </div> 
+<!-------------------about--------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                 <img src="user.png">
+            </div>
+            <div class="about-col-2">
+                 <h1 class="sub-title"> About me </h1>
+                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam harum, sint beatae blanditiis cum dolorum corrupti officia consectetur necessitatibus, ipsam nemo exercitationem. Odio quo expedita modi tempore, nobis architecto aliquam.
+                 Fugiat ipsum saepe perferendis molestias ducimus pariatur mollitia perspiciatis expedita? Voluptatem at voluptatum, porro ratione recusandae dolore illum dolores molestiae natus provident excepturi eum tempore id quas aliquam distinctio sint.</p>
+
+                 <div class="tab-title">
+                    <p class = "tab active" onclick="openTab('skills')"> Skills </p>
+                    <p class = "tab" onclick="openTab('experience')"> Experience </p>
+                    <p class = "tab" onclick="openTab('Education')"> Education </p>
+                 </div>
+                 <div class="tab-content skill" id="skills">
+                    <ul>
+                        <li><spam> UI/UX </spam><br> Designing Web/App Interface </li>
+                        <li><spam> Web Development </spam><br> Designing Websites </li>
+                        <li><spam> App Development </spam><br> Designing Web/App Interface </li>
+                        <li><spam> UI/UX </spam><br> Building Android Apps </li>
+                    </ul>
+                 </div>
+                 <div class="tab-content" id="experience">
+                    <ul>
+                        <li><spam>2024-Current </spam><br> UI/UX Design Training at ET Institute </li>
+                        <li><spam> 2019-2021 </spam><br> Team lead at StartUp LLC. </li>
+                        <li><spam> 2017-2019 </spam><br> UI/UX Design Executive at Coin Digital Ltd. </li>
+                        <li><spam> 2016-2017 </spam><br> Internship at e-kart ecommerce </li>
+                    </ul>
+                 </div>
+                 <div class="tab-content" id="Education">
+                    <ul>
+                        <li><spam> 2016 </spam><br> UI/UX Design at ET Institute </li>
+                        <li><spam> 2016 </spam><br> MBA From MIT Banglore </li>
+                        <li><spam> 2014 </spam><br> BBA From ISM Banglore  </li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------services--------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services </h1>
+        <div class="services-col">
+             <div> 
+                <i class="fa-solid fa-code"></i>
+                <h2> Web Design </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam harum, sint beatae blanditiis cum dolorum corrupti officia consectetur necessitatibus, ipsam nemo exercitationem. Odio quo expedita modi tempore, nobis architecto aliquam.</p>
+                <a href="#"> Read More </a>
+             </div>
+             <div> 
+                <i class="fa-solid fa-crop"></i>
+                <h2> UI/UX Design </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam harum, sint beatae blanditiis cum dolorum corrupti officia consectetur necessitatibus, ipsam nemo exercitationem. Odio quo expedita modi tempore, nobis architecto aliquam.</p>
+                <a href="#"> Read More </a>
+             </div>
+             <div> 
+                <i class="fa-brands fa-app-store"></i>
+                <h2> App Design </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam harum, sint beatae blanditiis cum dolorum corrupti officia consectetur necessitatibus, ipsam nemo exercitationem. Odio quo expedita modi tempore, nobis architecto aliquam.</p>
+                <a href="#"> Read More </a>
+             </div>
+             
+        </div>
+    </div>
+</div>
+
+<!-- -------------------Portfolio-------------------------- --> 
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Project </h1>
+        <div class="work-list">
+              <div class="work">
+                <img src="work-1.png" >
+                <div class="layer">
+                    <h3> Social Media App </h3>
+                    <p>This app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="work-2.png" >
+                <div class="layer">
+                    <h3> Music App </h3>
+                    <p>This app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="work-3.png" >
+                <div class="layer">
+                    <h3> Online e-commerce App </h3>
+                    <p>This app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+        </div>
+        <a href="#" class="btn"> See more </a>
+    </div>
+</div>
+<!-- ----------------------Contact----------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title"> Contact me </h1>
+            <p><i class="fa-solid fa-paper-plane"></i> contact@example.com </p>
+            <p><i class="fa-solid fa-square-phone"></i> +123 456 7890 </p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <a href="my-cv.pdf" download="my-cv.pdf" class="btn btn2"> Download CV </a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit" class = "btn btn2"> Send Message </button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+</div>
+<footer>
+    <div class="bar">
+        <p>Copyright © 2024 . All rights reserved <br> Made by Mrigank .</p>
+      </div>
+</footer>
+<script src="script.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
